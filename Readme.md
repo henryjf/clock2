@@ -1,3 +1,3 @@
-This is some information about my project!
+Used js, sass, and html to build a color clock where the time displays as a hexadecimal number and the background color changes to whatever color the clock number is displaying.
 
-> You should fill me out with detailed info about this project!!!!
+tiy-maryhenry-clock2.surge.sh
