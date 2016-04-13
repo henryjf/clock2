@@ -1,6 +1,7 @@
 
 //Used the Date obj to get hours, minutes and seconds
-  var clock = function() {
+  // var clock = function() {
+  function clock () {
   var hours = new Date().getHours();
   var minutes = new Date().getMinutes();
   var seconds = new Date().getSeconds();
@@ -12,14 +13,14 @@
   var sec = (seconds< 10) ? '0' + seconds : seconds;
 
 //Added expression to get ready for printing the correct code
-    var clock = '#' + newHour + min + sec;
+    var time = '#' + newHour + min + sec;
 
 //Used document.querySelector to locate where js will be inputted to page
   var timer = document.querySelector('#clock');
 // Used innerHTML to display js to page
-  timer.innerHTML = clock;
+  timer.innerHTML = time;
 // Used properties to access js to change background color in hexadecimal colors
-  timer.style.backgroundColor = clock;
+  timer.style.backgroundColor = time;
 };
 //Used setInterval to call clock function every sec.
-var time = setInterval(clock, 1000);
+var colorClock = setInterval(clock, 1000);
