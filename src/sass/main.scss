@@ -1,6 +1,6 @@
-body {
-  $number-color: #FFFFFF;
-}
+
+$color: #FFFFFF;
+
 
 #clock {
   font-size: 96px;
@@ -8,5 +8,5 @@ body {
   text-align: center;
   padding: 150px 50px;
   margin:75px;
-  color: #FFFFFF;
+  color: $color;
 }
