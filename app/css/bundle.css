@@ -1,2 +1,8 @@
 body {
   background-color: #FFFFFF; }
+
+#clock {
+  font-size: 96px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 150px; }
